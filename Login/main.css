@@ -75,6 +75,15 @@ body {
     color: #0099cc;
 }
 
+.error {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+input :invalid {
+    border: 2px solid red;
+}
+
 .password-container {
     position: relative;
     width: 100%;
