@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro_professor.css">
+    <title>Registro Professor</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo_gnet.png" alt="Logo">
+            </div>
+            <div class="form">
+                <h1>Registrar-se</h1>
+                <form id="form">
+                   <!-- Local de registro do usuario -->
+                    <input type="text" id="nome" placeholder="Nome" class="input required"><br>
+                    <span class="span-required">Nome deve possuir no mínimo 3 caracteres</span>
+                    <input type="email" id="email"placeholder="Email" class="input required"><br>
+                    <span class="span-required">Digite um email válido</span>
+                    <input type="number" id="telefone" placeholder="Telefone" class="input required"><br>
+                    <span class="span-required">Digite um telefone válido</span>
+                    <input type="number" id="numero_de_registro" placeholder="Número de Registro" class="input required"><br>
+                    <span class="span-required">Número de Registro é obrigatório</span>
+                    <input type="password" id="senha" placeholder="Senha" class="input required">
+                    <span class="span-required">Digite uma senha com no mínimo 6 caracteres</span>
+                    <input type="password" id="confirmSenha" placeholder="Repetir senha" class="input required"><br>
+                    <span class="span-required">Senhas devem ser compatíveis</span>
+                    <input type="submit" value="Registrar">
+                </form>
+            </div>
+        </div>  
+    </section>
+    <script src="registro_professor.js" defer></script>
+</body>
+</html>
